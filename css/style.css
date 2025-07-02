@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar styling for WebKit browsers */
+::-webkit-scrollbar {
+  width: 0px; /* Width of the scrollbar */
+}
+
+/* Background of the scrollbar track */
+::-webkit-scrollbar-track {
+  background:  rgba(255, 255, 255, 0.199); /* Blue background */
+}
+
+/* Scrollbar thumb (the moving part) */
+::-webkit-scrollbar-thumb {
+  background-color:  rgba(255, 255, 255, 0.199); /* Red thumb */
+  border-radius: 10px;    /* Optional: rounded corners */
+  ; /* Optional: adds space around thumb */
+}
+
+.row1, .row2 {
+  flex-wrap: wrap;
+  overflow-x: hidden;
+}
+
+a
+{
+    cursor: pointer;
+}
+body{
+  width: 100%;
+    height: 100%;
+ overflow-x: hidden;
+    scroll-behavior: smooth;
+    margin-right: 0px;
+}
+.logonav{
+    color: rgba(255, 68, 0, 0.966);
+}
+.btnnav{
+    background-color: rgba(255, 68, 0, 0.966);
+  
+}
+.footer{
+    position: fixed;
+    margin-bottom: 0%;
+}
+.crdbdy{
+    font-family: MV Boli;
+   
+    
+}
+.footerheading{
+    color:rgba(255, 68, 0, 0.966) ;
+    justify-content:space-evenly;
+}
+.cards{
+    display: flex;
+     justify-content:space-evenly;
+     margin: 0 auto;
+}
+.contextfot{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.199);
+}
+a:hover {
+  color: rgba(255, 68, 0, 0.966) !important;
+}
+.my-link:hover {
+  color: rgba(255, 68, 0, 0.966) !important;
+}
+/* therer is  day two*/
+.homepage{
+   
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.89);
+   
+    height: auto;
+}
+.homehead{
+     color: rgba(255, 68, 0, 0.966) !important;
+}
+.homebtn{
+    background-color: rgba(255, 68, 0, 0.966) !important;
+    height: 40px;
+    width: 80px;
+    border: none;
+    transition: all 0.5s;
+} 
+.homebtn:hover{
+     background-color: rgba(182, 59, 14, 0.966) !important;
+}
+.cdol{
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+}
+.rotator{
+   width: 100%;
+  height: 100%;
+  object-fit: cover;
+  animation: spin 6s linear infinite;
+  
+}
+.rotatorbox {
+  
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a1, .a2, .a3, .a4 {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  margin: 5px;
+}
+
+/* Make a2 and a4 smaller if you want variation */
+.a2, .a4 {
+  height: 180px;
+  width: 180px;
+}
+.a5{
+    height: 180px;
+  width: 180px;
+ 
+  margin: 5px;
+  margin-top: 70px;
+}
+
+
+.headabout{
+  margin-bottom: -5px;
+}
+.cheading{
+  color: black;
+  font-family:MV Boli;
+}
+.nhead{
+   color: rgba(255, 68, 0, 0.966) !important;
+     
+}
+.disbutn{
+  margin-left:15%;
+  width: 120px;
+}
+/* about us.html */
+.headingaboutus{
+ 
+  font-size: 80px;
+  font-family: Georgia;
+}
+.abmar{
+  margin-top: 30px;
+  margin-bottom: 170px;
+}
+.smhead{
+   font-family:MV Boli;
+      color: rgba(255, 68, 0, 0.966);
+}
+.fa-brands:hover{
+  color: rgba(255, 68, 0, 0.966);
+  cursor: pointer;
+  transform: translateY(-10px);
+}
+.cardback{
+background-color:white;
+box-shadow: 10px 10px 30px black;}
+.cardback:hover{
+    box-shadow: 10px 10px 10px  black;
+
+}
+.cardbd{
+  cursor: pointer;
+}
+.cardbd:hover{
+  transform: translateY(-20px);
+
+}
+p{
+  padding: 10px;
+}
+.cardsr{
+  box-shadow: 10px 10px 30px  black;
+  cursor: pointer;
+}
+.cardsr:hover{
+  transform: translateY(-20px);
+   box-shadow: 10px 10px 10px  black;
+}
+.tablebok{
+  padding-left: 180px;
+   padding-right: 180px;
+   
+}
+.backgroundoftable{
+  background-color:white;
+box-shadow: 10px 10px 30px black;
+ 
+}
+.tx-color{
+    color: rgba(255, 68, 0, 0.966);
+}
+.fsize{
+  font-size: 10px;
+}
